@@ -1,0 +1,31 @@
+.site-footer {
+  background: var(--navy);
+  color: rgba(247, 247, 245, 0.7);
+  padding: 32px 0;
+  border-top: 1px solid var(--line-dark);
+}
+
+.site-footer__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.site-footer__brand {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.site-footer__brand strong {
+  color: var(--red);
+}
+
+.site-footer__tag,
+.site-footer__copy {
+  margin: 0;
+  font-size: 0.82rem;
+}
