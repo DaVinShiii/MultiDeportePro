@@ -39,10 +39,16 @@
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  cursor: grab;
 }
 
 .ticker__track::-webkit-scrollbar {
   display: none;
+}
+
+.ticker__group {
+  display: flex;
+  flex: none;
 }
 
 .ticker__item {
