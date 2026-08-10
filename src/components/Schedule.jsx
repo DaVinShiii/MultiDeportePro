@@ -7,20 +7,6 @@ const ITEMS = [
   { time: "A DOMICILIO", title: "Programas personalizados", place: "Talca y alrededores" },
 ];
 
-function Row({ ariaHidden }) {
-  return (
-    <div className="ticker__row" aria-hidden={ariaHidden || undefined}>
-      {ITEMS.map((it, i) => (
-        <div className="ticker__item" key={i}>
-          <span className="ticker__time">{it.time}</span>
-          <span className="ticker__title">{it.title}</span>
-          <span className="ticker__place">{it.place}</span>
-        </div>
-      ))}
-    </div>
-  );
-}
-
 export default function Schedule() {
   return (
     <section className="ticker" aria-label="Próximos talleres">
@@ -29,8 +15,13 @@ export default function Schedule() {
         Próximos talleres
       </div>
       <div className="ticker__track">
-        <Row />
-        <Row ariaHidden />
+        {ITEMS.map((it, i) => (
+          <div className="ticker__item" key={i}>
+            <span className="ticker__time">{it.time}</span>
+            <span className="ticker__title">{it.title}</span>
+            <span className="ticker__place">{it.place}</span>
+          </div>
+        ))}
       </div>
     </section>
   );
