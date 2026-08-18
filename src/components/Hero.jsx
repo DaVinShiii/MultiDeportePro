@@ -16,9 +16,9 @@ export default function Hero() {
             Muévete <span>sin límites</span>
           </h1>
           <p className="hero__lead">
-            Talleres de natación, tenis de mesa adaptado y programas deportivos personalizados
-            para niños, adultos mayores y personas con discapacidad. Deporte para todos, con
-            entrenadores que inspiran.
+            Natación por hora en la piscina temperada UCM, eventos deportivos con instituciones
+            públicas y privadas, asesorías en gestión de proyectos deportivos y convenios con
+            empresas. Deporte para todos, con entrenadores que inspiran.
           </p>
           <div className="hero__actions">
             <a className="btn btn-primary" href="#talleres">

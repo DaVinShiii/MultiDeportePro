@@ -2,32 +2,60 @@ import "./Talleres.css";
 
 const TALLERES = [
   {
-    tag: "Adaptado",
-    color: "red",
-    title: "Tenis de mesa adaptado",
-    desc: "Clases dirigidas por entrenadores especializados en deporte paralímpico, con material adaptado a cada capacidad.",
-    schedule: "Lunes y miércoles · 18:30 – 19:30 hrs",
-    place: "Infinity Talca, Mall Plaza",
-    icon: (
-      <svg viewBox="0 0 48 48" width="30" height="30" fill="none">
-        <rect x="4" y="24" width="40" height="6" rx="2" fill="currentColor" />
-        <circle cx="34" cy="14" r="6" fill="currentColor" />
-        <path d="M12 40l8-10M36 40l-6-10" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
-      </svg>
-    ),
-  },
-  {
-    tag: "Infantil",
+    tag: "Piscina UCM",
     color: "blue",
-    title: "Natación para niños y niñas",
-    desc: "Talleres grupales en piscina temperada que trabajan seguridad acuática, técnica y confianza en el agua.",
-    schedule: "Sábados · 12:00 – 13:00 hrs",
+    title: "Natación por hora",
+    desc: "Bloques horarios en la piscina temperada de la UCM, para grupos e individuales, con agenda flexible según disponibilidad.",
+    schedule: "Reserva por hora",
     place: "Piscina Temperada UCM",
     icon: (
       <svg viewBox="0 0 48 48" width="30" height="30" fill="none">
         <path d="M6 34c4 0 4-4 8-4s4 4 8 4 4-4 8-4 4 4 8 4 4-4 8-4" stroke="currentColor" strokeWidth="3" fill="none" strokeLinecap="round" />
         <circle cx="18" cy="14" r="4" fill="currentColor" />
         <path d="M10 24l10-4 6 3 8-3" stroke="currentColor" strokeWidth="3" fill="none" strokeLinecap="round" />
+      </svg>
+    ),
+  },
+  {
+    tag: "Institucional",
+    color: "red",
+    title: "Eventos deportivos con instituciones",
+    desc: "Diseño y ejecución de eventos, torneos y jornadas junto a instituciones públicas y privadas: municipios, corporaciones de deporte, colegios y clubes.",
+    schedule: "Según convocatoria",
+    place: "Talca y la región",
+    icon: (
+      <svg viewBox="0 0 48 48" width="30" height="30" fill="none">
+        <path d="M10 6v36" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+        <path d="M10 8h24l-6 8 6 8H10" stroke="currentColor" strokeWidth="3" fill="none" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
+    tag: "Consultoría",
+    color: "green",
+    title: "Asesorías en gestión de proyectos deportivos",
+    desc: "Acompañamos a municipios, clubes y corporaciones en la planificación, postulación y ejecución de proyectos deportivos.",
+    schedule: "Bajo consulta",
+    place: "Presencial y remoto",
+    icon: (
+      <svg viewBox="0 0 48 48" width="30" height="30" fill="none">
+        <rect x="10" y="8" width="28" height="34" rx="3" stroke="currentColor" strokeWidth="3" />
+        <path d="M18 6h12v6H18z" fill="currentColor" />
+        <path d="M16 24l6 6 10-12" stroke="currentColor" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    ),
+  },
+  {
+    tag: "Alianzas",
+    color: "blue",
+    title: "Convenios con empresas",
+    desc: "Programas deportivos para colaboradores y comunidad, con convenios anuales adaptados a cada empresa.",
+    schedule: "Convenios anuales",
+    place: "A medida de cada empresa",
+    icon: (
+      <svg viewBox="0 0 48 48" width="30" height="30" fill="none">
+        <path d="M6 24l10-10 8 4 8-4 10 10" stroke="currentColor" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M18 24l6 6 6-6" stroke="currentColor" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
   },

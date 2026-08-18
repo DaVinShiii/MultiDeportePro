@@ -2,9 +2,10 @@ import { useEffect, useRef } from "react";
 import "./Schedule.css";
 
 const ITEMS = [
-  { time: "LUN · MIÉ 18:30", title: "Tenis de mesa adaptado", place: "Infinity Talca" },
-  { time: "SÁB 12:00", title: "Natación niños y niñas", place: "Piscina Temperada UCM" },
+  { time: "POR HORA", title: "Natación piscina UCM", place: "Piscina Temperada UCM" },
   { time: "19 AGO 09:30", title: "Teno Te Incluye", place: "Polideportivo Teno" },
+  { time: "SEGÚN CONVOCATORIA", title: "Eventos con instituciones", place: "Talca y la región" },
+  { time: "CONVENIOS ANUALES", title: "Alianzas con empresas", place: "A medida de cada empresa" },
   { time: "A DOMICILIO", title: "Programas personalizados", place: "Talca y alrededores" },
 ];
 
