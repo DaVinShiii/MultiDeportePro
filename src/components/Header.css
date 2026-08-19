@@ -37,6 +37,17 @@
   color: var(--red);
 }
 
+.brand__mark {
+  display: flex;
+  flex: none;
+}
+
+.brand__mark img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
 .main-nav {
   display: flex;
   align-items: center;

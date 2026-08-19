@@ -157,21 +157,13 @@
 
 .hero__badge {
   position: absolute;
-  top: -14px;
-  left: -14px;
+  top: -18px;
+  left: -18px;
   z-index: 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 68px;
-  height: 68px;
-  border-radius: 50%;
-  background: var(--red);
-  color: #fff;
-  font-family: var(--font-display);
-  font-size: 1.1rem;
-  letter-spacing: 0.05em;
-  box-shadow: 0 10px 24px rgba(230, 57, 70, 0.5);
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
   transform: rotate(-8deg);
 }
 

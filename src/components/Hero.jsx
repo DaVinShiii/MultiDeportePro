@@ -105,7 +105,7 @@ export default function Hero() {
               />
             ))}
           </figure>
-          <span className="hero__badge">PRO</span>
+          <img className="hero__badge" src={`${base}brand/logo.png`} alt="MultiDeporte Pro" />
         </div>
       </div>
     </section>
