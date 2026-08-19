@@ -43,9 +43,15 @@
 }
 
 .brand__mark img {
-  width: 40px;
-  height: 40px;
+  width: 58px;
+  height: 58px;
   object-fit: contain;
+  transition: width 0.25s ease, height 0.25s ease;
+}
+
+.site-header.is-scrolled .brand__mark img {
+  width: 46px;
+  height: 46px;
 }
 
 .main-nav {

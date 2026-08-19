@@ -26,7 +26,7 @@ export default function Header() {
       <div className="container site-header__row">
         <a href="#inicio" className="brand">
           <span className="brand__mark">
-            <img src={`${base}brand/logo.png`} alt="MultiDeporte Pro" width="40" height="40" />
+            <img src={`${base}brand/logo.png`} alt="MultiDeporte Pro" width="58" height="58" />
           </span>
           <span className="brand__word">
             MultiDeporte<strong>Pro</strong>
