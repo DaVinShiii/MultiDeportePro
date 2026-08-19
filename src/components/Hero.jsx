@@ -1,5 +1,7 @@
 import "./Hero.css";
 
+const base = import.meta.env.BASE_URL;
+
 export default function Hero() {
   return (
     <section id="inicio" className="hero">
@@ -50,30 +52,20 @@ export default function Hero() {
           </dl>
         </div>
 
-        <div className="hero__emblem" aria-hidden="true">
-          <svg viewBox="0 0 320 320" width="100%" height="100%">
-            <circle cx="160" cy="160" r="154" fill="none" stroke="var(--red)" strokeWidth="3" strokeDasharray="2 10" />
-            <circle cx="160" cy="160" r="120" fill="var(--navy-2)" />
-            <path
-              d="M96 128h128v40a64 64 0 0 1-128 0v-40z"
-              fill="var(--bone)"
+        <div className="hero__visual">
+          <figure className="hero__photo hero__photo--main">
+            <img
+              src={`${base}gallery/tenis-mesa-entrenamiento.jpg`}
+              alt="Entrenamiento de tenis de mesa MultiDeporte Pro"
             />
-            <path d="M96 132H60a36 36 0 0 0 36 36" fill="none" stroke="var(--bone)" strokeWidth="8" />
-            <path d="M224 132h36a36 36 0 0 1-36 36" fill="none" stroke="var(--bone)" strokeWidth="8" />
-            <rect x="146" y="228" width="28" height="34" fill="var(--bone)" />
-            <rect x="116" y="262" width="88" height="18" rx="4" fill="var(--red)" />
-            <text
-              x="160"
-              y="80"
-              textAnchor="middle"
-              fontFamily="Anton, sans-serif"
-              fontSize="34"
-              fill="var(--bone)"
-              letterSpacing="2"
-            >
-              PRO
-            </text>
-          </svg>
+          </figure>
+          <figure className="hero__photo hero__photo--accent">
+            <img
+              src={`${base}gallery/teno-te-incluye.jpg`}
+              alt="Jornada Teno Te Incluye, deporte adaptado"
+            />
+          </figure>
+          <span className="hero__badge">PRO</span>
         </div>
       </div>
     </section>
