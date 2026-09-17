@@ -4,6 +4,7 @@ import Schedule from "./components/Schedule.jsx";
 import Talleres from "./components/Talleres.jsx";
 import Nosotros from "./components/Nosotros.jsx";
 import Video from "./components/Video.jsx";
+import EventoGaleria from "./components/EventoGaleria.jsx";
 import Galeria from "./components/Galeria.jsx";
 import Contacto from "./components/Contacto.jsx";
 import Footer from "./components/Footer.jsx";
@@ -18,6 +19,7 @@ export default function App() {
         <Talleres />
         <Nosotros />
         <Video />
+        <EventoGaleria />
         <Galeria />
         <Contacto />
       </main>

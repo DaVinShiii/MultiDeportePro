@@ -38,6 +38,39 @@
   font-size: 1.02rem;
 }
 
+.nosotros__list {
+  list-style: none;
+  margin: 22px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.nosotros__list li {
+  position: relative;
+  padding-left: 22px;
+  color: rgba(247, 247, 245, 0.78);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.nosotros__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--green);
+}
+
+.nosotros__list strong {
+  color: #fff;
+  font-weight: 700;
+}
+
 .nosotros__lead {
   display: flex;
   align-items: center;
